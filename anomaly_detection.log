@@ -1,0 +1,1147 @@
+2025-06-19 12:17:32,496 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 12:17:32,511 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 12:17:33,749 - AnomalyDetectionSystem - ERROR - Loi khi sinh du lieu: Command '['python', 'generate_random_traffic.py']' returned non-zero exit status 1.
+2025-06-19 12:17:33,749 - AnomalyDetectionSystem - ERROR - Stderr: Traceback (most recent call last):
+  File "c:\Users\Lenovo\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd.py", line 3717, in <module>
+    main()
+  File "c:\Users\Lenovo\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd.py", line 3702, in main
+    globals = debugger.run(setup["file"], None, None, is_module)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Lenovo\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd.py", line 2698, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Lenovo\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd.py", line 2706, in _exec
+    globals = pydevd_runpy.run_path(file, globals, "__main__")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Lenovo\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 309, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Lenovo\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 278, in _get_code_from_file
+    with io_open_code(decoded_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Lenovo\\Downloads\\Anomaly_Detection_Website-main\\generate_random_traffic.py'
+
+2025-06-19 12:18:58,813 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 12:18:58,813 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 12:18:58,859 - AnomalyDetectionSystem - ERROR - Loi khi sinh du lieu: Command '['python', 'generate_random_traffic.py']' returned non-zero exit status 2.
+2025-06-19 12:18:58,859 - AnomalyDetectionSystem - ERROR - Stderr: python: can't open file 'C:\\Users\\Lenovo\\Downloads\\Anomaly_Detection_Website-main\\generate_random_traffic.py': [Errno 2] No such file or directory
+
+2025-06-19 12:20:15,653 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 12:20:15,653 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 12:20:15,762 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 12:20:15,762 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 12:20:15,863 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 12:20:15,863 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 12:20:20,051 - AnomalyDetectionSystem - ERROR - Loi khi huan luyen mo hinh: Parent directory model does not exist.
+2025-06-19 12:21:12,307 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 12:21:12,307 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 12:21:12,442 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 12:21:12,442 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 12:21:12,490 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 12:21:12,490 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 12:21:14,836 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-19 12:21:14,836 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-19 12:21:14,981 - AnomalyDetectionSystem - INFO - Phat hien 1307 bat thuong tren tong so 5000 mau (26.14%)
+2025-06-19 12:21:15,122 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-19 12:21:15,122 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-19 12:21:15,151 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-19 12:21:15,151 - AnomalyDetectionSystem - ERROR - Loi khi luu lich su: Object of type int32 is not JSON serializable
+2025-06-19 12:21:15,151 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 12:21:15,155 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 2.84 giay
+2025-06-19 12:21:15,155 - AnomalyDetectionSystem - INFO - Ket qua: 1307/5000 anomalies (26.14%)
+2025-06-19 12:22:05,613 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 12:22:05,614 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 12:22:05,734 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 12:22:05,734 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 12:22:05,785 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 12:22:05,785 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 12:22:07,697 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-19 12:22:07,697 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-19 12:22:07,725 - AnomalyDetectionSystem - INFO - Phat hien 566 bat thuong tren tong so 5000 mau (11.32%)
+2025-06-19 12:22:07,741 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-19 12:22:07,741 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-19 12:22:07,770 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-19 12:22:07,774 - AnomalyDetectionSystem - WARNING - File history.json bi loi, tao moi: Expecting value: line 5 column 23 (char 96)
+2025-06-19 12:22:07,774 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 12:22:07,782 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 2.16 giay
+2025-06-19 12:22:07,782 - AnomalyDetectionSystem - INFO - Ket qua: 566/5000 anomalies (11.32%)
+2025-06-19 12:38:45,211 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 12:38:45,211 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 12:38:45,526 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 12:38:45,526 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 12:38:45,999 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 12:38:45,999 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 12:38:51,581 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-19 12:38:51,581 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-19 12:38:51,633 - AnomalyDetectionSystem - INFO - Phat hien 545 bat thuong tren tong so 5000 mau (10.90%)
+2025-06-19 12:38:51,667 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-19 12:38:51,668 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-19 12:38:51,698 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-19 12:38:51,711 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 12:38:51,711 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 6.50 giay
+2025-06-19 12:38:51,712 - AnomalyDetectionSystem - INFO - Ket qua: 545/5000 anomalies (10.90%)
+2025-06-19 13:03:37,316 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:03:37,316 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 13:03:37,428 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 13:03:37,428 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 13:03:37,494 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 13:03:37,494 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 13:03:39,355 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-19 13:03:39,355 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-19 13:03:39,371 - AnomalyDetectionSystem - INFO - Phat hien 516 bat thuong tren tong so 5000 mau (10.32%)
+2025-06-19 13:03:39,382 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-19 13:03:39,382 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-19 13:03:39,404 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-19 13:03:39,416 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:03:39,416 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 2.10 giay
+2025-06-19 13:03:39,416 - AnomalyDetectionSystem - INFO - Ket qua: 516/5000 anomalies (10.32%)
+2025-06-19 13:13:27,862 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:13:27,871 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 13:13:29,703 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 13:13:29,704 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 13:13:29,786 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 13:13:29,786 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 13:13:35,041 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-19 13:13:35,041 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-19 13:13:35,064 - AnomalyDetectionSystem - INFO - Phat hien 522 bat thuong tren tong so 5000 mau (10.44%)
+2025-06-19 13:13:35,080 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-19 13:13:35,080 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-19 13:13:35,098 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-19 13:13:35,107 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:13:35,109 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 7.24 giay
+2025-06-19 13:13:35,109 - AnomalyDetectionSystem - INFO - Ket qua: 522/5000 anomalies (10.44%)
+2025-06-19 13:31:16,688 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:31:16,688 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 13:31:16,814 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 13:31:16,814 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 13:31:16,865 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 13:31:16,865 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 13:31:18,687 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-19 13:31:18,687 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-19 13:31:18,720 - AnomalyDetectionSystem - INFO - Phat hien 513 bat thuong tren tong so 5000 mau (10.26%)
+2025-06-19 13:31:18,738 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-19 13:31:22,045 - AnomalyDetectionSystem - INFO - Da gui email canh bao den nappet9@gmail.com
+2025-06-19 13:31:22,045 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-19 13:31:22,067 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-19 13:31:22,070 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:31:22,070 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 5.38 giay
+2025-06-19 13:31:22,070 - AnomalyDetectionSystem - INFO - Ket qua: 513/5000 anomalies (10.26%)
+2025-06-19 13:35:09,831 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:35:09,831 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 13:35:09,958 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 13:35:09,974 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 13:35:10,027 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 13:35:10,033 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 13:35:11,831 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-19 13:35:11,831 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-19 13:35:11,849 - AnomalyDetectionSystem - INFO - Phat hien 2325 bat thuong tren tong so 5000 mau (46.50%)
+2025-06-19 13:35:11,892 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-19 13:35:14,968 - AnomalyDetectionSystem - INFO - Da gui email canh bao den nappet9@gmail.com
+2025-06-19 13:35:14,968 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-19 13:35:14,985 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-19 13:35:14,997 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:35:14,997 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 5.17 giay
+2025-06-19 13:35:14,998 - AnomalyDetectionSystem - INFO - Ket qua: 2325/5000 anomalies (46.50%)
+2025-06-19 13:37:38,250 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:37:38,250 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 13:37:38,363 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 13:37:38,363 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 13:37:38,416 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 13:37:38,416 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 13:37:40,224 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-19 13:37:40,224 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-19 13:37:40,228 - AnomalyDetectionSystem - INFO - Phat hien 4469 bat thuong tren tong so 5000 mau (89.38%)
+2025-06-19 13:37:40,293 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-19 13:38:08,373 - AnomalyDetectionSystem - INFO - Da gui email canh bao den nappet9@gmail.com
+2025-06-19 13:38:08,374 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-19 13:38:08,391 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-19 13:38:08,401 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:38:08,401 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 30.15 giay
+2025-06-19 13:38:08,401 - AnomalyDetectionSystem - INFO - Ket qua: 4469/5000 anomalies (89.38%)
+2025-06-19 13:40:10,122 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:40:10,122 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 13:40:10,246 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 13:40:10,246 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 13:40:10,299 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 13:40:10,299 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 13:40:11,985 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-19 13:40:11,985 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-19 13:40:12,002 - AnomalyDetectionSystem - INFO - Phat hien 2817 bat thuong tren tong so 5000 mau (56.34%)
+2025-06-19 13:40:12,078 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-19 13:40:46,721 - AnomalyDetectionSystem - INFO - Da gui email canh bao den nappet9@gmail.com
+2025-06-19 13:40:46,721 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-19 13:40:46,740 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-19 13:40:46,749 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 13:40:46,750 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 36.63 giay
+2025-06-19 13:40:46,750 - AnomalyDetectionSystem - INFO - Ket qua: 2817/5000 anomalies (56.34%)
+2025-06-19 18:09:22,115 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 18:09:22,124 - AnomalyDetectionSystem - INFO - Dang sinh du lieu ngau nhien...
+2025-06-19 18:09:22,248 - AnomalyDetectionSystem - INFO - Sinh du lieu thanh cong
+2025-06-19 18:09:22,248 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data/traffic.csv...
+2025-06-19 18:09:22,425 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-19 18:09:22,425 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-19 18:09:26,629 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-19 18:09:26,629 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-19 18:09:26,677 - AnomalyDetectionSystem - INFO - Phat hien 2323 bat thuong tren tong so 5000 mau (46.46%)
+2025-06-19 18:09:26,754 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-19 18:10:08,976 - AnomalyDetectionSystem - INFO - Da gui email canh bao den nappet9@gmail.com
+2025-06-19 18:10:08,976 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-19 18:10:08,996 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-19 18:10:09,011 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-19 18:10:09,011 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 46.89 giay
+2025-06-19 18:10:09,011 - AnomalyDetectionSystem - INFO - Ket qua: 2323/5000 anomalies (46.46%)
+2025-06-20 00:04:18,263 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:04:18,263 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:04:18,265 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:04:18,265 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:04:18,266 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:04:18,266 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:04:18,266 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:04:18,266 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:04:21,895 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:04:21,895 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:04:21,897 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:04:21,897 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:04:21,897 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:04:21,898 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:04:21,898 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:04:21,898 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:04:21,908 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:08:05,213 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:08:05,213 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:08:05,213 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:08:05,221 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:08:05,222 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:08:05,222 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:08:05,222 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:08:05,223 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:08:09,045 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:08:09,046 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:08:09,046 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:08:09,046 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:08:09,047 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:08:09,047 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:08:09,047 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:08:09,047 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:08:09,059 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:12:52,958 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:12:52,959 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:12:52,959 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:12:52,959 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:12:52,961 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:12:52,961 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:12:52,962 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:12:52,962 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:12:57,071 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:12:57,071 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:12:57,074 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:12:57,075 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:12:57,075 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:12:57,075 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:12:57,076 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:12:57,076 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:12:57,089 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:21:07,300 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:21:07,302 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:21:07,302 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:21:07,303 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:21:07,303 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:21:07,303 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:21:07,304 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:21:07,304 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:21:11,960 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:21:11,960 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:21:11,971 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:21:11,971 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:21:11,972 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:21:11,972 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:21:11,972 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:21:11,972 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:21:11,987 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:21:12,505 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:21:12,506 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:21:12,506 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:21:12,507 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:21:12,508 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:21:12,508 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:21:12,508 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:21:12,510 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:21:12,537 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:24:19,903 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:24:19,903 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:24:19,904 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:24:19,904 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:24:19,904 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:24:19,905 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:24:19,905 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:24:19,905 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:24:19,921 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:24:20,211 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:24:20,212 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:24:20,212 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:24:20,213 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:24:20,213 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:24:20,213 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:24:20,213 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:24:20,213 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:24:20,224 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:25:33,173 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:25:33,174 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:25:33,175 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:25:33,176 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:25:33,177 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:25:33,178 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:25:33,180 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:25:33,180 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:25:33,181 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:25:33,183 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:25:33,186 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:25:33,187 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:25:33,187 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:25:33,188 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:25:33,188 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:25:33,216 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:25:33,222 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:25:52,699 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:25:52,701 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:25:52,701 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:25:52,702 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:25:52,702 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:25:52,703 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:25:52,703 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:25:52,703 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:25:52,722 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:25:52,737 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:25:52,738 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:25:52,738 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:25:52,740 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:25:52,741 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:25:52,741 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:25:52,741 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:25:52,741 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:25:52,755 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:34:32,341 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:34:32,342 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:34:32,342 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:34:32,342 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:34:32,351 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:34:32,352 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:34:32,352 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:34:32,352 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:34:32,354 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:34:32,354 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:34:32,354 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:34:32,355 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:34:32,355 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:34:32,371 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:34:32,372 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:36:27,837 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:36:27,838 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:36:27,838 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:36:27,838 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:36:27,839 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:36:27,839 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:36:27,839 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:36:27,839 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:36:31,980 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:36:31,981 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:36:31,981 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:36:31,981 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:36:31,982 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:36:31,982 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:36:31,982 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:36:31,982 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:36:31,997 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:39:04,746 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:39:04,747 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:39:04,748 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:39:04,748 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:39:04,749 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:39:04,749 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:39:04,750 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:39:04,750 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:39:04,760 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:39:04,760 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:39:04,760 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:39:04,761 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:39:04,762 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:39:04,763 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:39:04,763 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:39:04,763 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:39:04,774 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:39:04,784 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:39:04,904 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:39:04,904 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:39:04,904 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:39:04,904 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:39:04,911 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:39:04,911 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:39:04,911 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:39:04,911 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:39:04,927 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:39:15,244 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:39:15,246 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:39:15,246 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:39:15,246 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:39:15,247 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:39:15,247 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:39:15,247 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:39:15,247 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:39:19,745 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:39:19,746 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:39:19,746 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:39:19,747 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:39:19,747 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:39:19,747 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:39:19,748 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:39:19,748 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:39:19,765 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:40:35,782 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:40:35,783 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:40:35,783 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:40:35,784 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:40:35,784 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:40:35,784 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:40:35,786 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:40:35,786 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:40:35,801 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:40:35,802 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:40:35,802 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:40:35,803 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:40:35,803 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:40:35,804 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:40:35,804 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:40:35,804 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:40:35,805 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:40:35,819 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:40:35,868 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:40:35,871 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:40:35,871 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:40:35,872 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:40:35,872 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:40:35,872 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:40:35,873 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:40:35,873 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:40:35,889 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:40:35,994 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:40:35,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:40:35,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:40:35,996 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:40:35,996 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:40:35,996 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:40:35,997 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:40:35,997 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:40:36,002 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:40:48,022 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:40:48,025 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:40:48,025 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:40:48,025 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:40:48,026 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:40:48,026 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:40:48,026 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:40:48,026 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:40:51,867 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:40:51,868 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:40:51,868 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:40:51,868 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:40:51,868 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:40:51,870 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:40:51,870 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:40:51,870 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:40:51,886 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:46:17,884 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:46:17,884 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:46:17,885 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:46:17,886 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:46:17,886 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:46:17,886 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:46:17,886 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:46:17,887 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:46:17,887 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:46:17,887 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:46:17,887 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:46:17,887 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:46:17,888 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:46:17,888 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:46:17,889 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:46:17,891 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:46:17,891 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:46:17,893 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:46:17,893 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:46:17,894 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:46:17,895 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:46:17,895 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:46:17,907 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:46:17,917 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:46:17,989 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:46:17,989 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:46:17,991 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:46:17,992 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:46:17,992 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:46:17,993 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:46:17,994 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:46:17,995 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:46:18,010 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:46:18,022 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:46:18,024 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:46:18,024 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:46:18,025 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:46:18,026 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:46:18,026 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:46:18,026 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:46:18,026 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:46:18,042 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:48:26,830 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:48:26,831 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:48:26,831 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:48:26,832 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:48:26,832 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:48:26,833 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:48:26,833 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:48:26,833 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:48:26,835 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:48:26,835 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:48:26,836 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:48:26,838 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:48:26,838 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:48:26,839 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:48:26,839 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:48:26,839 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:48:26,856 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:48:26,859 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:48:26,888 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:48:26,889 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:48:26,889 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:48:26,890 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:48:26,891 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:48:26,891 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:48:26,891 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:48:26,892 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:48:26,912 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:48:27,001 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:48:27,002 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:48:27,003 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:48:27,003 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:48:27,004 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:48:27,004 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:48:27,005 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:48:27,005 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:48:27,022 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:48:27,022 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:48:27,023 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:48:27,023 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:48:27,024 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:48:27,024 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:48:27,024 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:48:27,026 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:48:27,026 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:48:27,043 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:51:13,307 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:51:13,308 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:51:13,309 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:51:13,310 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:51:13,312 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:51:13,312 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:51:13,314 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:51:13,315 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:51:13,316 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:51:13,316 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:51:13,316 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:51:13,317 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:51:13,320 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:51:13,321 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:51:13,323 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:51:13,324 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:51:13,339 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:51:13,341 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:51:13,342 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:51:13,344 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:51:13,345 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:51:13,347 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:51:13,348 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:51:13,348 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:51:13,354 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:51:13,355 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:51:13,388 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:51:13,411 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:51:13,415 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:51:13,417 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:51:13,417 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:51:13,422 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:51:13,424 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:51:13,424 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:51:13,426 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:51:13,452 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:51:13,459 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:51:13,459 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:51:13,461 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:51:13,461 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:51:13,464 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:51:13,464 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:51:13,465 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:51:13,496 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:51:13,536 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:51:48,543 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:51:48,544 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:51:48,545 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:51:48,546 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:51:48,547 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:51:48,547 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:51:48,548 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:51:48,548 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:51:48,584 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:51:48,640 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:51:48,641 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:51:48,644 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:51:48,646 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:51:48,648 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:51:48,648 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:51:48,649 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:51:48,650 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:51:48,676 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:51:48,678 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:51:48,679 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:51:48,679 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:51:48,679 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:51:48,681 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:51:48,681 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:51:48,682 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:51:48,682 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:51:48,706 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:51:48,774 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:51:48,776 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:51:48,776 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:51:48,777 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:51:48,778 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:51:48,778 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:51:48,779 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:51:48,779 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:51:48,801 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:51:48,843 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:51:48,843 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:51:48,843 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:51:48,845 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:51:48,846 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:51:48,846 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:51:48,846 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:51:48,847 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:51:48,860 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:52:42,081 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:52:42,081 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:52:42,082 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:52:42,082 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:52:42,082 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:52:42,082 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:52:42,083 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:52:42,083 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:52:42,083 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:52:42,083 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:52:42,084 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:52:42,084 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:52:42,084 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:52:42,084 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:52:42,084 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:52:42,084 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:52:42,103 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:52:42,103 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:52:42,110 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:52:42,110 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:52:42,113 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:52:42,113 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:52:42,113 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:52:42,113 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:52:42,116 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:52:42,116 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:52:42,134 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:52:42,231 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:52:42,232 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:52:42,232 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:52:42,233 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:52:42,233 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:52:42,233 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:52:42,233 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:52:42,233 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:52:42,258 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:52:42,311 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:52:42,311 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:52:42,311 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:52:42,311 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:52:42,311 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:52:42,313 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:52:42,313 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:52:42,313 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:52:42,325 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:52:48,739 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:52:48,739 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:52:48,741 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:52:48,741 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:52:48,741 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:52:48,742 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:52:48,742 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:52:48,742 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:52:48,757 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:52:48,758 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:52:48,759 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:52:48,759 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:52:48,759 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:52:48,761 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:52:48,761 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:52:48,761 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:52:48,762 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:52:48,763 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:52:48,764 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:52:48,764 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:52:48,764 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:52:48,765 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:52:48,765 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 00:52:48,765 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:52:48,765 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:52:48,780 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:52:48,783 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:54:25,873 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:54:25,873 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:54:25,874 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:54:25,874 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:54:25,875 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:54:25,875 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:54:25,875 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:54:25,877 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:54:25,896 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:54:25,912 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:54:25,913 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:54:25,913 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:54:25,914 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:54:25,914 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:54:25,915 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:54:25,915 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:54:25,915 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:54:25,934 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:54:25,936 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:54:25,936 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:54:25,937 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:54:25,937 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:54:25,938 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:54:25,938 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:54:25,939 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:54:25,939 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:54:25,955 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:54:26,266 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:54:26,266 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:54:26,269 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:54:26,269 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:54:26,270 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:54:26,270 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:54:26,270 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:54:26,271 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:54:26,285 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:54:26,350 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:54:26,351 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:54:26,351 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:54:26,351 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:54:26,352 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:54:26,352 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:54:26,352 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:54:26,352 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:54:26,364 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:55:14,112 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:55:14,112 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:55:14,114 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:55:14,114 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:55:14,114 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:55:14,114 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:55:14,114 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:55:14,114 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:55:14,137 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:55:14,185 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:55:14,185 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:55:14,185 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:55:14,190 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:55:14,190 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:55:14,190 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:55:14,190 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:55:14,190 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:55:14,209 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:55:14,209 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:55:14,211 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:55:14,211 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:55:14,211 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:55:14,211 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:55:14,211 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:55:14,211 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:55:14,211 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:55:14,232 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:55:14,334 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:55:14,334 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:55:14,334 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:55:14,334 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:55:14,334 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:55:14,334 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:55:14,334 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:55:14,334 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:55:14,355 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 00:55:14,388 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 00:55:14,388 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 00:55:14,388 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 00:55:14,388 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 00:55:14,388 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 00:55:14,388 - __main__ - WARNING - ⚠️  System resources may be insufficient
+2025-06-20 00:55:14,388 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 00:55:14,388 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 00:55:14,396 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:03:28,991 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:03:28,991 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:03:28,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:03:28,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:03:28,995 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:03:28,995 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:03:28,995 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:03:28,995 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:03:28,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:03:28,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:03:28,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:03:28,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:03:28,995 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:03:28,995 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:03:28,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:03:28,995 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:03:28,995 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:03:28,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:03:28,995 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:03:29,004 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:03:29,004 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:03:29,007 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:03:29,007 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:03:29,007 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:03:29,023 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:03:29,026 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:03:29,032 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:03:29,173 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:03:29,173 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:03:29,173 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:03:29,173 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:03:29,173 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:03:29,173 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:03:29,173 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:03:29,173 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:03:29,190 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:03:29,323 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:03:29,323 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:03:29,323 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:03:29,339 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:03:29,340 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:03:29,340 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:03:29,340 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:03:29,340 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:03:29,340 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:11:15,002 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:11:15,003 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:11:15,004 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:11:15,004 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:11:15,005 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:11:15,006 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:11:15,006 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:11:15,007 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:11:15,037 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:11:15,038 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:11:15,038 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:11:15,039 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:11:15,040 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:11:15,041 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:11:15,041 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:11:15,042 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:11:15,042 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:11:15,046 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:11:15,047 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:11:15,049 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:11:15,050 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:11:15,051 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:11:15,052 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:11:15,052 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:11:15,053 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:11:15,069 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:11:15,070 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:11:15,072 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:11:15,075 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:11:15,080 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:11:15,081 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:11:15,082 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:11:15,084 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:11:15,084 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:11:15,087 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:11:15,149 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:11:15,158 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:11:15,161 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:11:15,162 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:11:15,164 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:11:15,166 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:11:15,167 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:11:15,167 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:11:15,169 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:11:15,199 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:14:59,975 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:14:59,975 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:14:59,977 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:14:59,977 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:14:59,978 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:14:59,979 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:14:59,980 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:14:59,980 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:15:00,002 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:15:00,015 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:15:00,016 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:15:00,016 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:15:00,017 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:15:00,018 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:15:00,018 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:15:00,018 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:15:00,019 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:15:00,041 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:15:00,076 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:15:00,078 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:15:00,078 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:15:00,079 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:15:00,080 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:15:00,080 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:15:00,080 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:15:00,081 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:15:00,097 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:15:00,123 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:15:00,123 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:15:00,124 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:15:00,125 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:15:00,125 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:15:00,126 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:15:00,126 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:15:00,126 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:15:00,145 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:15:00,254 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:15:00,255 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:15:00,255 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:15:00,255 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:15:00,256 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:15:00,256 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:15:00,256 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:15:00,256 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:15:00,263 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:22:17,400 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:22:17,404 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:22:17,407 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:22:17,411 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:22:17,413 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:22:17,414 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:22:17,415 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:22:17,416 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:22:17,435 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:22:17,437 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:22:17,439 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:22:17,443 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:22:17,446 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:22:17,450 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:22:17,450 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:22:17,451 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:22:17,452 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:22:17,484 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:22:17,637 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:22:17,637 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:22:17,639 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:22:17,639 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:22:17,640 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:22:17,640 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:22:17,640 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:22:17,640 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:22:17,658 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:22:17,831 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:22:17,831 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:22:17,831 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:22:17,832 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:22:17,833 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:22:17,833 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:22:17,833 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:22:17,833 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:22:17,850 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:22:17,905 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:22:17,905 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:22:17,906 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:22:17,906 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:22:17,906 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:22:17,906 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:22:17,906 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:22:17,907 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:22:17,917 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:28:31,586 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:28:31,588 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:28:31,591 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:28:31,592 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:28:31,593 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:28:31,594 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:28:31,593 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:28:31,594 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:28:31,594 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:28:31,595 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:28:31,595 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:28:31,597 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:28:31,598 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:28:31,598 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:28:31,598 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:28:31,600 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:28:31,613 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:28:31,613 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:28:31,627 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:28:31,629 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:28:31,629 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:28:31,631 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:28:31,631 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:28:31,631 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:28:31,631 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:28:31,631 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:28:31,650 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:28:31,757 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:28:31,759 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:28:31,759 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:28:31,759 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:28:31,759 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:28:31,759 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:28:31,759 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:28:31,761 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:28:31,773 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:28:31,922 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:28:31,922 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:28:31,923 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:28:31,923 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:28:31,924 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:28:31,924 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:28:31,924 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:28:31,924 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:28:31,936 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:40:49,379 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:40:49,379 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:40:49,379 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:40:49,379 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:40:49,381 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:40:49,381 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:40:49,382 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:40:49,382 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:40:49,383 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:40:49,383 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:40:49,383 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:40:49,383 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:40:49,383 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:40:49,383 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:40:49,385 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:40:49,390 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:40:49,391 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:40:49,391 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:40:49,392 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:40:49,392 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:40:49,392 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:40:49,393 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:40:49,393 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:40:49,403 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:40:49,404 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:40:49,411 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:40:49,614 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:40:49,615 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:40:49,615 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:40:49,615 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:40:49,617 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:40:49,617 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:40:49,617 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:40:49,617 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:40:49,633 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:40:49,735 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:40:49,735 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:40:49,736 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:40:49,736 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:40:49,736 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:40:49,736 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:40:49,736 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:40:49,736 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:40:49,749 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:46:43,406 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:46:43,408 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:46:43,408 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:46:43,408 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:46:43,410 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:46:43,410 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:46:43,410 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:46:43,410 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:46:43,438 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:46:43,465 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:46:43,465 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:46:43,465 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:46:43,465 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:46:43,465 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:46:43,465 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:46:43,469 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:46:43,471 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:46:43,477 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:46:43,479 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:46:43,479 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:46:43,481 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:46:43,481 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:46:43,481 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:46:43,481 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:46:43,481 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:46:43,493 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:46:43,498 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:46:43,679 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:46:43,679 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:46:43,679 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:46:43,679 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:46:43,679 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:46:43,679 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:46:43,679 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:46:43,679 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:46:43,695 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:46:43,833 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:46:43,833 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:46:43,833 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:46:43,837 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:46:43,837 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:46:43,837 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:46:43,837 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:46:43,837 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:46:43,857 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:51:06,161 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:51:06,161 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:51:06,161 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:51:06,161 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:51:06,167 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:51:06,167 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:51:06,167 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:51:06,167 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:51:09,853 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:51:09,853 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:51:09,853 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:51:09,853 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:51:09,867 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:51:09,867 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:51:09,867 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:51:09,867 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:51:09,880 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:56:44,930 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:56:44,932 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:56:44,932 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:56:44,933 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:56:44,933 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:56:44,933 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:56:44,933 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:56:44,934 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:56:44,946 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 01:58:50,420 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:58:50,421 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:58:50,421 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:58:50,421 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:58:50,423 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:58:50,423 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:58:50,423 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:58:50,424 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:58:54,268 - __main__ - INFO - Đã tạo/kiểm tra thư mục: data
+2025-06-20 01:58:54,268 - __main__ - INFO - Đã tạo/kiểm tra thư mục: models
+2025-06-20 01:58:54,268 - __main__ - INFO - Đã tạo/kiểm tra thư mục: outputs
+2025-06-20 01:58:54,270 - __main__ - INFO - Đã tạo/kiểm tra thư mục: logs
+2025-06-20 01:58:54,270 - __main__ - INFO - ✅ Configuration loaded successfully
+2025-06-20 01:58:54,270 - __main__ - INFO - ✅ System resources check passed
+2025-06-20 01:58:54,271 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
+2025-06-20 01:58:54,271 - __main__ - INFO - 🔧 Debug mode: True
+2025-06-20 01:58:54,286 - werkzeug - WARNING -  * Debugger is active!

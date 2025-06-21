@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Auto: Generate Data, Detect Anomaly, Restart Backend",
+			"command": "python generate_random_traffic.py && python run_detection.py && taskkill /IM python.exe /F && timeout /t 2 && start python api.py",
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

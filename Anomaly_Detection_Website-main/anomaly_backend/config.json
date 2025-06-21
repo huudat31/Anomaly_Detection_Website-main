@@ -1,0 +1,11 @@
+{
+  "data_path": "data\\traffic.csv",
+  "model_path": "models/autoencoder.h5",
+  "output_dir": "outputs",
+  "alert_file": "alert.csv",
+  "email_alerts": false,
+  "email_recipient": "",
+  "threshold": 0.5,
+  "generate_random_data": false,
+  "export_results": true
+}
