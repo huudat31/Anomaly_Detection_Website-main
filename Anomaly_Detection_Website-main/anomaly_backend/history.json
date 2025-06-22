@@ -579,5 +579,33 @@
     "anomalies_count": 506,
     "total_samples": 5000,
     "anomaly_rate": 10.12
+  },
+  {
+    "timestamp": "2025-06-21T20:16:31.210785",
+    "success": true,
+    "anomalies_count": 506,
+    "total_samples": 5000,
+    "anomaly_rate": 10.12
+  },
+  {
+    "timestamp": "2025-06-21T20:30:35.434722",
+    "success": true,
+    "anomalies_count": 497,
+    "total_samples": 5000,
+    "anomaly_rate": 9.94
+  },
+  {
+    "timestamp": "2025-06-21T20:30:45.187080",
+    "success": true,
+    "anomalies_count": 516,
+    "total_samples": 5000,
+    "anomaly_rate": 10.32
+  },
+  {
+    "timestamp": "2025-06-21T20:33:32.912418",
+    "success": true,
+    "anomalies_count": 107,
+    "total_samples": 999,
+    "anomaly_rate": 10.71071071071071
   }
 ]

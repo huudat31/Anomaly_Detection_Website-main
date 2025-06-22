@@ -1504,3 +1504,17 @@ mục: models
 2025-06-21 00:31:23,927 - __main__ - INFO - 🚀 Starting server on 0.0.0.0:5000
 2025-06-21 00:31:23,927 - __main__ - INFO - 🔧 Debug mode: True
 2025-06-21 00:31:23,945 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 20:16:28,730 - AnomalyDetectionSystem - INFO - === BAT DAU QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-21 20:16:28,730 - AnomalyDetectionSystem - INFO - Bo qua viec sinh du lieu ngau nhien
+2025-06-21 20:16:28,731 - AnomalyDetectionSystem - INFO - Dang tai va trich xuat dac trung tu data\traffic.csv...
+2025-06-21 20:16:28,803 - AnomalyDetectionSystem - INFO - Trich xuat thanh cong 5000 mau du lieu
+2025-06-21 20:16:28,803 - AnomalyDetectionSystem - INFO - Dang huan luyen Autoencoder...
+2025-06-21 20:16:31,124 - AnomalyDetectionSystem - INFO - Huan luyen mo hinh thanh cong
+2025-06-21 20:16:31,125 - AnomalyDetectionSystem - INFO - Dang phat hien bat thuong...
+2025-06-21 20:16:31,150 - AnomalyDetectionSystem - INFO - Phat hien 506 bat thuong tren tong so 5000 mau (10.12%)
+2025-06-21 20:16:31,173 - AnomalyDetectionSystem - INFO - Da ghi canh bao vao file alert.csv
+2025-06-21 20:16:31,174 - AnomalyDetectionSystem - INFO - Dang xuat ket qua...
+2025-06-21 20:16:31,197 - AnomalyDetectionSystem - INFO - Xuat ket qua thanh cong
+2025-06-21 20:16:31,212 - AnomalyDetectionSystem - INFO - === HOAN THANH QUA TRINH PHAT HIEN ANOMALY ===
+2025-06-21 20:16:31,212 - AnomalyDetectionSystem - INFO - Thoi gian thuc hien: 2.48 giay
+2025-06-21 20:16:31,212 - AnomalyDetectionSystem - INFO - Ket qua: 506/5000 anomalies (10.12%)

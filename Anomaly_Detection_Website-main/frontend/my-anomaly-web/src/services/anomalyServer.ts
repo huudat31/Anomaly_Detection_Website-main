@@ -27,8 +27,9 @@ export class AnomalyService {
         value: item.value !== undefined ? Number(item.value) : 0,
         isAnomaly: !!item.isAnomaly,
         confidence: item.confidence !== undefined ? Number(item.confidence) : 0
+
       }));
-      
+
       return {
         success: true,
         data: {
@@ -77,7 +78,7 @@ export class AnomalyService {
         throw new Error('Failed to fetch statistics');
       }
       const json = await response.json();
-      
+
       if (json.success && json.data) {
         return {
           success: true,

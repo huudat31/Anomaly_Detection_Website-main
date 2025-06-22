@@ -7,8 +7,10 @@ import { ErrorMessage } from '../components/common/ErrorMessage';
 import { DataTable } from '../components/dashboard/DataTable';
 import { StatisticsCards } from '../components/dashboard/StatisticsCards';
 import { FileUpload } from '../components/dashboard/FileUpload';
+
 import { anomalyService } from '../services/anomalyServer';
 import type { Anomaly } from '../types';
+import { ExportButton } from '../components/dashboard/ExportButoon';
 
 
 export const AnomalyDetectionDashboard: React.FC = () => {
@@ -17,7 +19,7 @@ export const AnomalyDetectionDashboard: React.FC = () => {
   const [uploadError, setUploadError] = useState<string | null>(null);
   const [uploadSuccess, setUploadSuccess] = useState<boolean>(false);
   const [autoLoading, setAutoLoading] = useState(false);
-  const [autoError, setAutoError] = useState<string|null>(null);
+  const [autoError, setAutoError] = useState<string | null>(null);
   const [autoSuccess, setAutoSuccess] = useState(false);
 
   const handleFileUpload = async (event: ChangeEvent<HTMLInputElement>) => {
@@ -90,22 +92,58 @@ export const AnomalyDetectionDashboard: React.FC = () => {
             </p>
           </div>
 
-          <div className="flex flex-col gap-2 md:flex-row md:items-center">
+          <div className="flex flex-col gap-3 md:flex-row md:items-center">
             <FileUpload
               onFileUpload={handleFileUpload}
               uploadLoading={uploadLoading}
               uploadError={uploadError}
               uploadSuccess={uploadSuccess}
             />
-            <button
-              className="ml-4 px-6 py-3 text-lg font-semibold bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-60"
-              onClick={handleAutoUpdate}
-              disabled={autoLoading}
-            >
-              {autoLoading ? 'Updating...' : 'Update'}
-            </button>
-            {autoSuccess && <span className="text-green-600 ml-2">Updated!</span>}
-            {autoError && <span className="text-red-600 ml-2">{autoError}</span>}
+
+            <div className="flex gap-2 items-center">
+              <button
+                className="w-24 h-12 px-4 text-base font-semibold bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-60 flex items-center justify-center"
+                onClick={handleAutoUpdate}
+                disabled={autoLoading}
+              >
+                {autoLoading ? (
+                  <>
+                    <svg className="animate-spin h-4 w-4 text-white mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span className="text-sm">...</span>
+                  </>
+                ) : (
+                  'Update'
+                )}
+              </button>
+
+              <ExportButton
+                data={anomalies}
+                disabled={loading || !anomalies || anomalies.length === 0}
+              />
+            </div>
+
+            {/* Status Messages - Fixed position */}
+            <div className="min-h-[40px] flex flex-col justify-center">
+              {autoSuccess && (
+                <div className="flex items-center gap-1">
+                  <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-green-600 text-sm font-medium">Updated successfully!</span>
+                </div>
+              )}
+              {autoError && (
+                <div className="flex items-center gap-1">
+                  <svg className="w-4 h-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                  <span className="text-red-600 text-sm font-medium">{autoError}</span>
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
@@ -115,12 +153,32 @@ export const AnomalyDetectionDashboard: React.FC = () => {
         {/* Data Table */}
         <div className="bg-white rounded-lg shadow">
           <div className="px-6 py-4 border-b border-gray-200">
-            <h2 className="text-xl font-semibold text-gray-900">
-              Recent Anomalies ({anomalies.length} records)
-            </h2>
-            <p className="text-sm text-gray-600 mt-1">
-              Click on any row to view detailed information
-            </p>
+            <div className="flex justify-between items-center">
+              <div>
+                <h2 className="text-xl font-semibold text-gray-900">
+                  Recent Anomalies ({anomalies.length} records)
+                </h2>
+                <p className="text-sm text-gray-600 mt-1">
+                  Click on any row to view detailed information
+                </p>
+              </div>
+
+              {/* Quick Export Info */}
+              {anomalies && anomalies.length > 0 && (
+                <div className="text-sm text-gray-500">
+                  <div className="flex items-center gap-4">
+                    <span className="flex items-center">
+                      <span className="w-2 h-2 bg-red-500 rounded-full mr-1"></span>
+                      Anomalies: {anomalies.filter(item => item.isAnomaly).length}
+                    </span>
+                    <span className="flex items-center">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mr-1"></span>
+                      Normal: {anomalies.filter(item => !item.isAnomaly).length}
+                    </span>
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
 
           <div className="p-6">

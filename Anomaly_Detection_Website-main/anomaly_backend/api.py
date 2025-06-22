@@ -118,12 +118,7 @@ class ProcessingState:
                 "estimated_finish": None
             })
 
-# Global state instance
 processing_state = ProcessingState()
-
-# =============================================================================
-# CALLBACK SYSTEM
-# =============================================================================
 
 class ProgressCallback:
     """Callback để cập nhật tiến trình với ước tính thời gian"""
